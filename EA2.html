@@ -1,0 +1,125 @@
+<html>
+
+<head>
+<title>Join Us</title>
+<script>
+function print_result() {
+
+ var email = document.f1.email.value;
+ alert("Email = " + email);
+ var phoneno = document.f1.phoneno.value;
+ alert("phoneno = " + phoneno);
+ alert("submit auccess!");
+
+
+}
+
+</script>
+<nav class="navbar background">
+<div class="menu">
+<ul>
+    <li>
+      <a href="EA.html" target="external_5">Home</a>
+    </li>
+  </ul>
+  <ul>
+    <li>
+      <a href="#" target="external_1">Earth's Ecological Environment</a>
+      <ul class="sub">
+        <li><a href="EA4.html" target="external_1">Forest Ecological Conservation</a></li>
+        <li><a href="EA5.html" target="external_2">Marine Ecological Conservation</a></li>
+      </ul>
+    </li>
+  </ul>
+
+  <ul>
+    <li>
+      <a href="EA3.html" target="external_3">About Us</a>
+    </li>
+  </ul>
+<ul>
+    <li>
+      <a href="EA2.html" target="external_4">Join Us</a>
+    </li>
+  </ul>
+   <div class="rightNav">
+              <input type="text" name="search" id="search">
+              <button class="btn btn-sm">Search</button>
+        </div>
+</nav>
+</div>
+<hr><h1>Join us ! </h1></hr></br>
+<h1>Fill out the form below to become part of us!
+</h1>
+<link rel="stylesheet" href="EA.css" tpye="text/css">
+</head>
+
+<body>
+
+<h4>
+<div id="b4">
+<style type="text/css">fieldset { border-radius: 10px; }</style>
+<form method="post" enctype="multipart/form-data" color="blue" name="f1" onSubmit="print_result()" >
+      <input type="hidden" name="region" value="Asia"/>
+        <fieldset>
+        <legend>Member Details</legend>
+        First Name :
+        <input type="text" name="firstname" /><br />
+        Second Name :
+        <input type="text" name="secondname" /><br />
+        Phone No :
+        <input type="text" name="phoneno"
+                 pattern="[0-9]{8}"
+                 title="852-xxxxxxxx"  /><br />
+        Email Address :
+        <input type="email" name="email"
+                 title="name@domain"  /><br />
+        Your Gender :
+        <input type="radio" name="gender" value="M"  checked="checked"
+        />Male
+        <input type="radio" name="gender"  value="F" />Female
+        <br />
+        <legend>Home Address:</legend>
+        <textarea rows="2" cols="50"name="comment">
+		</textarea>
+        <br />
+
+        Your Birthday :
+        <input type="date"
+        &nbsp;&nbsp;&nbsp;  /><br />
+
+
+
+        </fieldset>
+        <input type="submit" value="Submit Form" />
+	    <input type="reset" value="Clear Data" />
+
+    </form>
+
+
+    </div>
+
+
+
+
+</h4>
+<h3>
+If you application is successful</br>
+We will send a email to you</br>
+Places check your email.</br>
+</h3>
+
+
+</body>
+
+<footer class="footer">
+<div class="container bottom_border">
+<p><i class="fa fa-phone"></i>  Phone: +852-88888888  </p>
+<p><i class="fa fa fa-envelope"></i> Email: 210421329@stu.vtc.edu.hk  </p>
+</div>
+<p>@Yi Wing Hei (210421329)</p>
+
+
+</footer>
+
+</html>

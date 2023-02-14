@@ -1,0 +1,179 @@
+body {
+   
+   color: black;
+   background-image: url("background.jpg");
+   
+}
+
+.menu {
+        margin: 0px;
+	padding: 0px;
+        width: 80%;
+        display: flex;
+        align-items: center;
+        font-size: 18px;
+
+    }
+  
+.menu li {
+        margin: 0px;
+	padding: 0px;      
+        display: flex;
+        align-items: center;
+
+  }
+
+
+.menu a {
+  text-decoration: none;
+  padding: 10px 20px;
+  
+  color: white;
+  display:block;
+  }
+  
+.menu a:hover {
+  color: grey;
+  }
+
+
+.menu .sub {
+  position: absolute;
+  top:40px;
+  background-color: skyblue;
+
+  
+  }
+  
+.menu .sub a:hover {
+   color: grey;
+  }
+
+.menu .sub li {
+  overflow: hidden;
+  height:0px;
+  transiyion:height 500ms;
+  }
+  
+.menu ul li:hover .sub li {
+  height:40px;
+  }
+
+ 
+.background {
+        background: skyblue;
+        background-blend-mode: darken;
+        background-size: cover;
+}
+
+.rightnav {
+         width: 30%;
+         text-align: right;
+}
+
+  #search {
+        padding: 5px;
+        font-size: 15px;
+        border: 2px solid grey;
+        border-radius: 9px;
+    }
+    
+footer { 
+width:100%; 
+background-color:skyblue; 
+min-height:100px; p
+adding:10px 0px 25px 0px ;
+}
+
+footer p {
+font-size:15px;  
+padding-bottom:0px; 
+}
+
+.footer {
+        
+        background-blend-mode: darken;
+        background-size: cover;
+        text-align:center;
+}
+
+.intor {
+color: black;
+font-size: 14pt;
+}
+
+h1{
+font-size: 35pt;
+color: blue;
+
+}
+
+h2{
+font-size: 20pt;
+color: green;
+}
+
+h3{
+font-size: 20pt;
+color: red;
+}
+
+h4{
+
+font-size: 10pt;
+}
+
+
+strong {
+   font-size: 20px;
+   color: black;
+   font-weight: bold;	
+
+}
+
+#main, #b1, #b2, #b3, #b4, #main2{ 
+background: lightgreen; border: 1px solid black; border-radius: 8px; margin: 5px; padding: 15px; }
+
+#flex-container { display: flex; flex-flow: row wrap; }
+
+#main {
+  order: 3;
+  height: auto;
+  background: #FCC;
+  width: 850px;
+  flex-grow: 1;
+
+}
+
+#main2 {
+order: 3;
+  height: auto;
+  background: #FCC;
+  width: 850px;
+  flex-grow: 1;
+
+}
+
+#b1 {
+order: 2;
+  width: 400px;
+
+}
+#b2 {
+order: 2;
+  width: 400px;
+
+}
+
+#b3 {
+order: 2;
+  width: 400px;
+
+}
+
+#b4 {
+order: 2;
+  width: 500px;
+    background: skyblue;
+font-size: 15pt;
+}
